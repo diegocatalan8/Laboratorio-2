@@ -1,0 +1,111 @@
+.container-entradas{
+    border-radius: 25px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px black;
+    margin-top: 45px;
+    
+    
+}
+
+.container-entradas-dos{
+
+    padding-bottom: 40px;
+}
+
+.container-entradas h1{
+    text-align: center;
+    font-size: 36px;
+   
+    height: 80px;
+    padding-top:25px; 
+    
+    
+}
+ 
+ .entrada {
+    background-color:#d8cb7d;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px black;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    padding-bottom: 25px;
+
+   
+}
+
+.entrada:hover{
+    transform: scale(1.7);
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+
+.entrada:last-child{
+    margin-bottom: 0px;
+   
+}
+
+.entrada button{
+   
+    width: 100px;
+    height: 100px;
+    background-color: #e76210;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+
+.entrada button:hover{
+    background-color: #dd9f3c;
+    border: 2px solid black;
+}
+
+.container-comida {
+    width: 200px;
+    height: 200px;
+   
+    margin-top: 25px;
+}
+
+.container-comida img{
+    width: 175px;
+    height: 175px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.entrada h2{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+   
+}
+
+.entrada h2 small{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.entrada p{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
